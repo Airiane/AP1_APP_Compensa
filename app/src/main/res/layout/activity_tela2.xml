@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tela2">
+
+    <TextView
+        android:id="@+id/textcerveja1"
+        style="@style/texts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/cerveja1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textcerveja2"
+        style="@style/texts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="180dp"
+        android:text="@string/cervejacolor2"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editValue2"
+        android:layout_width="227dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="80dp"
+        android:elevation="2dp"
+        style="@style/styletext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textcerveja3"
+        style="@style/texts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="180dp"
+        android:text="@string/cervejaml"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/quant"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/styleborder"
+        style="@style/quant"
+        app:layout_constraintEnd_toStartOf="@+id/dropdown"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:elevation="3dp" />
+
+    <Spinner
+        android:id="@+id/dropdown"
+        style="@style/dropdown"
+        android:layout_width="50dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn-enviar"
+        style="@style/button"
+        android:layout_width="109dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="68dp"
+        android:elevation="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quant" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

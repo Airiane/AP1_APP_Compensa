@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Compensa</string>
+    <string name="cerveja1">Insira o preço da:</string>
+    <string name="cervejacolor1">Primeira cerveja</string>
+    <string name="cervejaml">E quantos ml possui:</string>
+    <string name="cerveja2">Segunda cerveja</string>
+    <string name="cervejacolor2">Segunda cerveja</string>
+    <string name="cerevjabarata1">Primeira cerveja</string>
+    <string name="cerevjabarata2">Segunda cerveja</string>
+    <string name="result">Compensa mais comprar a...</string>
+    <string name="add">Adicionar</string>
+</resources>
